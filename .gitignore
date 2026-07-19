@@ -1,0 +1,19 @@
+# Data-science portfolio: commit ONLY notebooks, HTML reports, and READMEs.
+# Everything else (raw data, source .py, figures, DOCS, caches, archives) is excluded.
+
+# 1) Ignore everything by default
+*
+
+# 2) Let Git descend into subdirectories to find whitelisted files
+!*/
+
+# 3) Whitelist the file types we want, anywhere in the tree
+!*.ipynb
+!*.html
+!README.md
+
+# 4) Keep this ignore file tracked
+!.gitignore
+
+# 5) Never commit Jupyter checkpoints (they contain .ipynb files)
+.ipynb_checkpoints/

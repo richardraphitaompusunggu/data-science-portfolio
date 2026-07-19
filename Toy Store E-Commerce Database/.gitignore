@@ -1,0 +1,19 @@
+# Data — raw is immutable but large; keep it out of version control.
+data/raw/
+data/processed/
+Maven+Fuzzy+Factory/
+Maven+Fuzzy+Factory.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
