@@ -1,0 +1,20 @@
+# Data — raw is immutable but large; processed is regenerable
+data/processed/
+*.parquet
+
+# Large raw archive
+archive.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
