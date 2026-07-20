@@ -1,0 +1,16 @@
+# Only three artifact types ship to GitHub: notebooks, the report HTML, and the README.
+# Everything else stays local. Ignore all, then re-include the deliverables.
+
+*
+!.gitignore
+
+!notebooks/
+!notebooks/*.ipynb
+
+!reports/
+!reports/final_report.html
+
+!README.md
+
+# Never commit Jupyter checkpoints
+.ipynb_checkpoints/
