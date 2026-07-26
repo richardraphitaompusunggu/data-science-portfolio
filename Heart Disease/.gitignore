@@ -1,0 +1,7 @@
+*
+!.gitignore
+!notebooks/
+!notebooks/*.ipynb
+!reports/
+!reports/final_report.html
+!README.md
